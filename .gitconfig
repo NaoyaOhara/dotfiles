@@ -1,0 +1,9 @@
+[user]
+  name = Ohara Naoya
+  email = ohara_naoya@kakaku.com
+[push]
+  default = current
+[alias]
+  gl = log --oneline --graph --decorate --color
+  st = status
+  ch = checkout
