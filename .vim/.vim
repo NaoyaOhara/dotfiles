@@ -1,1 +1,0 @@
-/home/ohara_naoya/dotfiles/.vim
