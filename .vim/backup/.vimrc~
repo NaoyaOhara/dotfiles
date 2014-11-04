@@ -31,7 +31,6 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'The-NERD-tree'
 NeoBundle 'The-NERD-Commenter'
 NeoBundle 'Gist.vim'
-NeoBundle 'cakebaker/scss-syntax.vim'
 " colorscheme
 NeoBundle 'molokai'
 NeoBundle 'Solarized'
