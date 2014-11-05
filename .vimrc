@@ -32,6 +32,7 @@ NeoBundle 'The-NERD-tree'
 NeoBundle 'The-NERD-Commenter'
 NeoBundle 'Gist.vim'
 NeoBundle 'cakebaker/scss-syntax.vim'
+NeoBundle 'slim-template/vim-slim'
 " colorscheme
 NeoBundle 'molokai'
 NeoBundle 'Solarized'
