@@ -44,9 +44,9 @@ filetype plugin indent on
 "---------------------------------------------------------------------------
 " colorscheme
 "
-set t_Co=256
 syntax on
 "set background=dark
+set t_Co=256
 colorscheme molokai
 
 
@@ -61,7 +61,6 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 
-au BufRead,BufNewFile *.scss set filetype=sass
 
 " encoding
 set fileformats=unix,dos,mac
@@ -82,9 +81,16 @@ endif
 " □とか○の文字があってもカーソル位置がずれないようにする
 set ambiwidth=double
 
+" swapfile
+set swapfile
+set directory=~/.vim/tmp
+
 " backup
 set backup
 set backupdir=~/.vim/backup
+
+" whitespace
+autocmd BufWritePre * :%s/\s\+$//e
 
 " WhitespaceEOL
 highlight WhitespaceEOL ctermbg=gray guibg=gray
