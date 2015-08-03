@@ -1,2 +1,5 @@
 # Ignore vim backup
 .vim/backup
+
+.vim/bundle/*
+!.vim/bundle/neobundle.vim
