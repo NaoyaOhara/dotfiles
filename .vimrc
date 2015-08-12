@@ -8,7 +8,6 @@ filetype plugin indent off
 
 if has('vim_starting')
   set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim/
-  call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
 endif
 
 call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
@@ -37,7 +36,7 @@ NeoBundle 'slim-template/vim-slim'
 NeoBundle 'molokai'
 NeoBundle 'Solarized'
 
- call neobundle#end()
+call neobundle#end()
 
 filetype plugin indent on
 
