@@ -6,5 +6,6 @@
 [alias]
   gl = log --oneline --graph --decorate --color
   st = status
+  br = branch
   ch = checkout
 	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
