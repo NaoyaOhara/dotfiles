@@ -1,6 +1,11 @@
+.DS_Store
+*~
+*.swp
+.netrwhist
+
 # Ignore vim backup
-.vim/backup
-.vim/tmp
+#.vim/backup/*
+#.vim/tmp/*
 
 .vim/bundle/*
 !.vim/bundle/neobundle.vim
