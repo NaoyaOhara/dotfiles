@@ -8,7 +8,8 @@ cd ~/
 git clone https://github.com/youraccount/dotfiles.git
 rm -i .bashrc
 rm -i .bash_profile
-ln ./
+cd dotdfiles
+ln ./dotfilesLink.sh
 ```
 
 1.vimの設定
