@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-1.dotfilesの設定
+1. dotfilesの設定
 
 ```
 cd ~/
@@ -12,7 +12,7 @@ cd dotdfiles
 ln ./dotfilesLink.sh
 ```
 
-1.vimの設定
+1. vimの設定
 
 ```
 git submodule init
