@@ -20,6 +20,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'Shougo/neoyank.vim'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'vim-scripts/vcscommand.vim'
 NeoBundle 'vim-scripts/Highlight-UnMatched-Brackets'
@@ -145,8 +146,6 @@ nnoremap <silent> ,f :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 nnoremap <silent> ,r :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> ,m :<C-u>Unite file_mru<CR>
 nnoremap <silent> ,a :<C-u>UniteWithBufferDir -buffer-name=files buffer file_mru bookmark file<CR>
-
-let g:unite_source_history_yank_enable = 1
 nnoremap <silent> ,y :<C-u>Unite history/yank<CR>
 
 " vim-powerline
