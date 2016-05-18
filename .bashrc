@@ -6,6 +6,8 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias ll='ls -l'
+alias la='ls -la'
 
 # スクリプト読み込み
 source $HOME/dotfiles/bin/git-completion.bash
@@ -29,5 +31,3 @@ GIT_PS1_SHOWSTASHSTATE=1
 # \$ $
 export PS1='\[\033[1;32m\]\u\[\033[00m\]:\[\033[1;34m\]\w\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ '
 ##############
-
-cd icotto/vendor/engines/webpage/

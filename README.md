@@ -4,11 +4,11 @@ dotfiles
 ### dotfilesの設定
 ```
 cd ~/
-git clone https://github.com/youraccount/dotfiles.git
+git clone git@github.com:NaoyaOhara/dotfiles.git
 rm -i .bashrc
 rm -i .bash_profile
-cd dotdfiles
-ln ./dotfilesLink.sh
+cd dotfiles
+sh dotfilesLink.sh
 ```
 ### vimの設定
 ```
