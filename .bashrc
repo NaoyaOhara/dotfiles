@@ -6,7 +6,9 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-alias ll='ls -l'
+alias delete-invisible='find ./ \( -name ".DS_Store" -or -name "._*" \) -print -exec rm {} ";"'
+
+alias ll='ls -la'
 alias la='ls -la'
 
 # スクリプト読み込み
