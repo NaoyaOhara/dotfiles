@@ -47,3 +47,9 @@ setopt hist_ignore_space
 setopt hist_reduce_blanks
 # 補完で小文字でも大文字にマッチさせる
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# Settings for fzf
+export PATH="$PATH:$HOME/.fzf/bin"
+export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'
+export FZF_DEFAULT_OPTS='--height 30% --border'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

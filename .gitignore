@@ -9,3 +9,5 @@
 
 .vim/bundle/*
 !.vim/bundle/neobundle.vim
+
+dein/*
