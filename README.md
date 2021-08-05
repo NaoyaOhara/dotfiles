@@ -27,3 +27,12 @@ git submodule update
 ```
 :NeoBundleInstall
 ```
+### fzfまわりの準備
+deinの設定だけでうまく動かなかったので
+```
+brew install fzf
+```
+ripgrepをインストール
+```
+$ brew install ripgrep
+```
